@@ -1,0 +1,246 @@
+                @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap');
+                * {
+                    margin: 0;
+                    padding: 0;
+                    font-family: "Ubuntu", sans-serif;
+                }
+                
+                header {
+                    height: 85px;
+                    background-color: #2E948A;
+                    display: flex;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+                
+                header nav a {
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    cursor: pointer;
+                    padding: 0 15px;
+                }
+                
+                #cabecalho {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    max-width: 1440px;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+                
+                #logo {
+                    margin-left: 30px;
+                    display: flex;
+                }
+                
+                #link-menu {
+                    display: flex;
+                    margin-right: 30px;
+                }
+                
+                header h1 {
+                    margin: 0;
+                    display: flex;
+                    color: #FFFFFF;
+                    font-weight: 500;
+                    font-size: 45px;
+                    margin-top: 10px;
+                }
+                
+                section {
+                    max-width: 1440px;
+                    margin: 100px auto;
+                }
+                
+                #banner-index {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                }
+                
+                .titulo-index {
+                    color: #FF4081;
+                    font-weight: bold;
+                    font-size: 60px;
+                    line-height: 69px;
+                }
+                
+                .subtitulo-index {
+                    font-size: 27px;
+                    line-height: 31px;
+                    color: #555555;
+                    margin-top: 25px;
+                    margin-bottom: 30px;
+                }
+                
+                .saber-mais {
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: #FF4081;
+                    font-size: 23px;
+                    border: 2px solid #FF4081;
+                    border-radius: 62px;
+                    box-sizing: border-box;
+                    padding: 10px 20px;
+                }
+                
+                #card-index {
+                    display: flex;
+                    max-width: 1440px;
+                    width: 80%;
+                    justify-content: space-around;
+                    text-align: center;
+                }
+                
+                #card-index h2 {
+                    font-weight: bold;
+                    font-size: 25px;
+                    color: #FF4081;
+                    text-align: center;
+                }
+                
+                #card-index p {
+                    font-weight: 300;
+                    font-size: 17px;
+                    text-align: center;
+                    color: #000000;
+                    margin-top: 20px;
+                    margin-bottom: 25px;
+                }
+                
+                #card-index a {
+                    font-size: 20px;
+                    font-style: normal;
+                    color: #fff;
+                    text-decoration: none;
+                    cursor: pointer;
+                    background: #FF4081;
+                    border-radius: 62px;
+                    padding: 8px 20px;
+                }
+                
+                #depoimento-titulo h3 {
+                    font-family: "Nunito", sans-serif;
+                    font-size: 37px;
+                    color: #009688;
+                    margin-left: 11%;
+                    margin-bottom: 5%;
+                }
+                
+                #depoimento-card {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    max-width: 1440px;
+                    margin: 10px auto;
+                    margin-left: 7%;
+                }
+                
+                #depoimentos {
+                    max-width: 38%;
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 40px;
+                }
+                
+                #depoimentos p {
+                    font-family: "Nunito", sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #000000;
+                }
+                
+                #mais-conteudo {
+                    font-weight: bold;
+                    font-size: 37px;
+                    color: #009688;
+                    margin-left: 11%;
+                }
+                
+                #conteudo {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    text-align: left;
+                    max-width: 1440px;
+                    width: 80%
+                }
+                
+                #conteudo h4 {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 27px;
+                    line-height: 31px;
+                    color: #009688;
+                }
+                
+                #conteudo p {
+                    width: 90%;
+                }
+                
+                #posts {
+                    text-align: center;
+                }
+                
+                #posts a {
+                    color: #FF4081;
+                    font-size: 25px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    border: 2px solid #FF4081;
+                    box-sizing: border-box;
+                    border-radius: 62px;
+                    padding: 10px 20px;
+                    margin: 20px
+                }
+                
+                footer {
+                    background: #419488;
+                    max-width: 1440px;
+                    width: 100%;
+                    height: 200px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                #rodape-logo {
+                    margin-top: 50px;
+                }
+                
+                .opcoes {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                
+                .opcoes a {
+                    font-size: 20px;
+                    color: #fff;
+                    text-decoration: none;
+                    cursor: pointer;
+                    margin: 0;
+                }
+                
+                #link {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                
+                #link a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: #fff;
+                    font-size: 20px;
+                    text-align: center;
+                    border: 2px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 62px;
+                    margin: 10px;
+                    padding: 10px 30px;
+                }
