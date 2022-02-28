@@ -244,3 +244,70 @@
                     margin: 10px;
                     padding: 10px 30px;
                 }
+                /*pagina cursos*/
+                
+                #titulo-cursos h1 {
+                    font-weight: bold;
+                    font-size: 60px;
+                    color: #FF4081;
+                    margin-left: 11%;
+                }
+                
+                #titulo-cursos p {
+                    font-weight: normal;
+                    font-size: 20px;
+                    color: #555555;
+                    margin-left: 11%;
+                }
+                
+                #cursos-opcoes {
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 1440px;
+                    width: 80%;
+                }
+                
+                .card-cursos img {
+                    padding: 40px
+                }
+                
+                .card-cursos {
+                    display: flex;
+                }
+                
+                .texto-card {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: left;
+                    width: 80%;
+                    margin-left: 5%;
+                }
+                
+                .texto-card h2 {
+                    font-weight: bold;
+                    font-size: 35px;
+                    color: #FF4081;
+                    margin-bottom: 30px;
+                }
+                
+                .texto-card {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #000000;
+                }
+                
+                .texto-card a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    font-weight: normal;
+                    font-size: 20px;
+                    color: #fff;
+                    background: #2E948A;
+                    border-radius: 62px;
+                    width: 35%;
+                    text-align: center;
+                    padding: 10px 20px;
+                    margin-top: 20px;
+                }
