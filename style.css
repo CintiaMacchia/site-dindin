@@ -22,6 +22,10 @@
                 }
                 
                 #cabecalho {
+                    background-color: #2E948A;
+                }
+                
+                #cabecalho {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
@@ -310,4 +314,68 @@
                     text-align: center;
                     padding: 10px 20px;
                     margin-top: 20px;
+                }
+                /* PAGINA CURSO INVESTIMENTO*/
+                
+                #banner-curso {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly
+                }
+                
+                .titulo-curso-invest {
+                    max-width: 1440px;
+                    width: 35%;
+                    text-align: justify;
+                }
+                
+                .titulo-curso-invest h1 {
+                    font-weight: bold;
+                    font-size: 55px;
+                    line-height: 63px;
+                    color: #FF4081;
+                    margin-bottom: 20px;
+                }
+                
+                .titulo-curso-invest p {
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 23px;
+                    align-items: center;
+                    color: #000000;
+                }
+                
+                #videos-aula {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 80%;
+                    justify-content: space-evenly;
+                    align-content: center;
+                }
+                
+                .card-aula {
+                    display: flex;
+                    margin: 50px;
+                }
+                
+                .titulo-aula {
+                    text-align: justify;
+                    padding: 40px;
+                    width: 50%;
+                }
+                
+                .titulo-aula h2 {
+                    font-weight: bold;
+                    font-size: 35px;
+                    color: #FF4081;
+                    padding: 0 0 30px 0
+                }
+                
+                .titulo-aula p {
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 23px;
+                    display: flex;
+                    align-items: center;
+                    color: #000000;
                 }
