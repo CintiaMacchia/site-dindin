@@ -446,10 +446,64 @@
                 }
                 
                 .card-blog p {
-                    width: 90%;
+                    width: 80%;
                     text-align: justify;
                     margin-top: 20px;
                     font-weight: 300;
                     font-size: 17px;
                     color: #000000;
+                }
+                /*PAGINA DE CONTATO*/
+                
+                #contato {
+                    font-weight: bold;
+                    font-size: 40px;
+                    line-height: 46px;
+                    color: #FF4081;
+                    width: 80%;
+                    margin-top: 20%;
+                    margin-left: 11%;
+                }
+                
+                #formulario {
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                
+                #form form {
+                    display: flex;
+                    text-align: center;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                
+                #form form * {
+                    font-size: 16px;
+                    margin: 25px;
+                }
+                
+                #form form input,
+                textarea {
+                    background: #FFFFFF;
+                    border: 1px solid #686868;
+                    box-sizing: border-box;
+                    border-radius: 7px;
+                    width: 50vh
+                }
+                
+                #form form input {
+                    padding: 5px;
+                }
+                
+                #form form a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    font-weight: 800;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #fff;
+                    background: #FF4081;
+                    border-radius: 50px;
+                    width: 30%;
+                    padding: 10px 8px;
                 }
