@@ -1,561 +1,677 @@
-                @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
-                * {
-                    margin: 0;
-                    padding: 0;
-                    font-family: "Ubuntu", sans-serif;
-                }
-                
-                header {
-                    height: 85px;
-                    background-color: #2E948A;
-                    display: flex;
-                    font-size: 15px;
-                    font-weight: bold;
-                }
-                
-                header nav a {
-                    color: #FFFFFF;
-                    text-decoration: none;
-                    cursor: pointer;
-                    padding: 0 15px;
-                }
-                
-                #cabecalho {
-                    background-color: #2E948A;
-                }
-                
-                #cabecalho {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    max-width: 1440px;
-                    margin: 0 auto;
-                    width: 100%;
-                }
-                
-                #logo {
-                    margin-left: 30px;
-                    display: flex;
-                }
-                
-                #link-menu {
-                    display: flex;
-                    margin-right: 30px;
-                }
-                
-                header h1 {
-                    margin: 0;
-                    display: flex;
-                    color: #FFFFFF;
-                    font-weight: 500;
-                    font-size: 45px;
-                    margin-top: 10px;
-                }
-                
-                section {
-                    max-width: 1440px;
-                    margin: 100px auto;
-                }
-                
-                #banner-index {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    flex-wrap: wrap;
-                }
-                
-                .titulo-index {
-                    color: #FF4081;
-                    font-weight: bold;
-                    font-size: 60px;
-                    line-height: 69px;
-                }
-                
-                .subtitulo-index {
-                    font-size: 27px;
-                    line-height: 31px;
-                    color: #555555;
-                    margin-top: 25px;
-                    margin-bottom: 30px;
-                }
-                
-                .saber-mais {
-                    text-decoration: none;
-                    cursor: pointer;
-                    color: #FF4081;
-                    font-size: 23px;
-                    border: 2px solid #FF4081;
-                    border-radius: 62px;
-                    box-sizing: border-box;
-                    padding: 10px 20px;
-                }
-                
-                #card-index {
-                    display: flex;
-                    max-width: 1440px;
-                    width: 80%;
-                    justify-content: space-around;
-                    text-align: center;
-                }
-                
-                #card-index h2 {
-                    font-weight: bold;
-                    font-size: 25px;
-                    color: #FF4081;
-                    text-align: center;
-                }
-                
-                #card-index p {
-                    font-weight: 300;
-                    font-size: 17px;
-                    text-align: center;
-                    color: #000000;
-                    margin-top: 20px;
-                    margin-bottom: 25px;
-                }
-                
-                #card-index a {
-                    font-size: 20px;
-                    font-style: normal;
-                    color: #fff;
-                    text-decoration: none;
-                    cursor: pointer;
-                    background: #FF4081;
-                    border-radius: 62px;
-                    padding: 8px 20px;
-                }
-                
-                #depoimento-titulo h3 {
-                    font-size: 37px;
-                    color: #009688;
-                    margin-left: 11%;
-                    margin-bottom: 5%;
-                }
-                
-                #depoimento-card {
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                    max-width: 1440px;
-                    margin: 10px auto;
-                    margin-left: 7%;
-                }
-                
-                #depoimentos {
-                    max-width: 38%;
-                    display: flex;
-                    align-items: center;
-                    padding: 10px 40px;
-                }
-                
-                #depoimentos p {
-                    font-family: "Nunito", sans-serif;
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 18px;
-                    line-height: 25px;
-                    color: #000000;
-                }
-                
-                #mais-conteudo {
-                    font-weight: bold;
-                    font-size: 37px;
-                    color: #009688;
-                    margin-left: 11%;
-                }
-                
-                #conteudo {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    text-align: left;
-                    max-width: 1440px;
-                    width: 80%
-                }
-                
-                #conteudo h4 {
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 27px;
-                    line-height: 31px;
-                    color: #009688;
-                }
-                
-                #conteudo p {
-                    width: 90%;
-                }
-                
-                #posts {
-                    text-align: center;
-                }
-                
-                #posts a {
-                    color: #FF4081;
-                    font-size: 25px;
-                    text-decoration: none;
-                    cursor: pointer;
-                    border: 2px solid #FF4081;
-                    box-sizing: border-box;
-                    border-radius: 62px;
-                    padding: 10px 20px;
-                    margin: 20px
-                }
-                
-                footer {
-                    background: #419488;
-                    max-width: 1440px;
-                    width: 100%;
-                    height: 200px;
-                    display: flex;
-                    justify-content: space-around;
-                }
-                
-                #rodape-logo {
-                    margin-top: 50px;
-                }
-                
-                .opcoes {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                }
-                
-                .opcoes a {
-                    font-size: 20px;
-                    color: #fff;
-                    text-decoration: none;
-                    cursor: pointer;
-                    margin: 0;
-                }
-                
-                #link {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                }
-                
-                #link a {
-                    text-decoration: none;
-                    cursor: pointer;
-                    color: #fff;
-                    font-size: 20px;
-                    text-align: center;
-                    border: 2px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 62px;
-                    margin: 10px;
-                    padding: 10px 30px;
-                }
-                /*pagina cursos*/
-                
-                #titulo-cursos h1 {
-                    font-weight: bold;
-                    font-size: 60px;
-                    color: #FF4081;
-                    margin-left: 11%;
-                }
-                
-                #titulo-cursos p {
-                    font-weight: normal;
-                    font-size: 20px;
-                    color: #555555;
-                    margin-left: 11%;
-                }
-                
-                #cursos-opcoes {
-                    display: flex;
-                    flex-wrap: wrap;
-                    max-width: 1440px;
-                    width: 80%;
-                }
-                
-                .card-cursos img {
-                    padding: 40px
-                }
-                
-                .card-cursos {
-                    display: flex;
-                }
-                
-                .texto-card {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    text-align: left;
-                    width: 80%;
-                    margin-left: 5%;
-                }
-                
-                .texto-card h2 {
-                    font-weight: bold;
-                    font-size: 35px;
-                    color: #FF4081;
-                    margin-bottom: 30px;
-                }
-                
-                .texto-card {
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 18px;
-                    color: #000000;
-                }
-                
-                .texto-card a {
-                    text-decoration: none;
-                    cursor: pointer;
-                    font-weight: normal;
-                    font-size: 20px;
-                    color: #fff;
-                    background: #2E948A;
-                    border-radius: 62px;
-                    width: 35%;
-                    text-align: center;
-                    padding: 10px 20px;
-                    margin-top: 20px;
-                }
-                /* PAGINA CURSO INVESTIMENTO*/
-                
-                #banner-curso {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-evenly
-                }
-                
-                .titulo-curso-invest {
-                    max-width: 1440px;
-                    width: 35%;
-                    text-align: justify;
-                }
-                
-                .titulo-curso-invest h1 {
-                    font-weight: bold;
-                    font-size: 55px;
-                    line-height: 63px;
-                    color: #FF4081;
-                    margin-bottom: 20px;
-                }
-                
-                .titulo-curso-invest p {
-                    font-weight: 300;
-                    font-size: 20px;
-                    line-height: 23px;
-                    align-items: center;
-                    color: #000000;
-                }
-                
-                #videos-aula {
-                    display: flex;
-                    flex-wrap: wrap;
-                    width: 80%;
-                    justify-content: space-evenly;
-                    align-content: center;
-                }
-                
-                .card-aula {
-                    display: flex;
-                    margin: 50px;
-                }
-                
-                .titulo-aula {
-                    text-align: justify;
-                    padding: 40px;
-                    width: 50%;
-                }
-                
-                .titulo-aula h2 {
-                    font-weight: bold;
-                    font-size: 35px;
-                    color: #FF4081;
-                    padding: 0 0 30px 0
-                }
-                
-                .titulo-aula p {
-                    font-weight: 300;
-                    font-size: 20px;
-                    line-height: 23px;
-                    display: flex;
-                    align-items: center;
-                    color: #000000;
-                }
-                /*PAGINA BLOG*/
-                
-                #blog {
-                    max-width: 1440px;
-                    width: 80%;
-                }
-                
-                #banner-blog {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-evenly
-                }
-                
-                #titulo-blog h1 {
-                    font-weight: bold;
-                    font-size: 47px;
-                    color: #009688;
-                }
-                
-                #titulo-blog p {
-                    font-weight: 300;
-                    font-size: 20px;
-                    color: #000000;
-                    text-align: left;
-                    width: 60%;
-                    margin-top: 40px;
-                }
-                
-                #materias-blog {
-                    display: flex;
-                    justify-content: space-around;
-                    width: 80%;
-                    gap: 50px;
-                }
-                
-                #materias-blog-2 {
-                    display: flex;
-                    justify-content: space-around;
-                    width: 80%;
-                    gap: 50px;
-                }
-                
-                #materias-blog-3 {
-                    display: flex;
-                    justify-content: space-around;
-                    width: 80%;
-                    gap: 50px;
-                }
-                
-                .card-blog {
-                    display: block;
-                }
-                
-                .card-blog img {
-                    width: 95%;
-                    margin-bottom: 20px
-                }
-                
-                .card-blog h2 a {
-                    text-decoration: none;
-                    cursor: pointer;
-                    font-weight: 500;
-                    font-size: 30px;
-                    color: #FF4081;
-                }
-                
-                .card-blog p {
-                    width: 80%;
-                    text-align: justify;
-                    margin-top: 20px;
-                    font-weight: 300;
-                    font-size: 17px;
-                    color: #000000;
-                }
-                /*PAGINA DE CONTATO*/
-                
-                #contato {
-                    font-weight: bold;
-                    font-size: 40px;
-                    line-height: 46px;
-                    color: #FF4081;
-                    width: 80%;
-                    margin-top: 20%;
-                    margin-left: 11%;
-                }
-                
-                #formulario {
-                    display: flex;
-                    justify-content: space-evenly;
-                }
-                
-                #form form {
-                    display: flex;
-                    text-align: center;
-                    flex-direction: column;
-                    align-items: flex-start;
-                }
-                
-                #form form * {
-                    font-size: 16px;
-                    margin: 25px;
-                }
-                
-                #form form input,
-                textarea {
-                    background: #FFFFFF;
-                    border: 1px solid #686868;
-                    box-sizing: border-box;
-                    border-radius: 7px;
-                    width: 50vh
-                }
-                
-                #form form input {
-                    padding: 5px;
-                }
-                
-                #form form a {
-                    text-decoration: none;
-                    cursor: pointer;
-                    font-weight: 800;
-                    font-size: 16px;
-                    text-align: center;
-                    color: #fff;
-                    background: #FF4081;
-                    border-radius: 50px;
-                    width: 30%;
-                    padding: 10px 8px;
-                }
-                /*PAGINA POSTS*/
-                
-                #titulo-post h1 {
-                    font-weight: 500;
-                    font-size: 50px;
-                    line-height: 57px;
-                    display: flex;
-                    justify-content: center;
-                    color: #FF4081;
-                }
-                
-                #titulo-post p {
-                    font-weight: 300;
-                    font-size: 18px;
-                    display: flex;
-                    justify-content: center;
-                    color: #9D9D9D;
-                }
-                
-                #imagem-post {
-                    display: flex;
-                    justify-content: center;
-                    width: 145vh;
-                }
-                
-                #texto-post {
-                    width: 90vw;
-                    text-align: left;
-                }
-                
-                #texto-post h2 {
-                    font-weight: bold;
-                    font-size: 27px;
-                    line-height: 31px;
-                    color: #009688;
-                    margin-bottom: 2vw;
-                }
-                
-                #texto-post p {
-                    font-weight: 300;
-                    font-size: 18px;
-                    line-height: 21px;
-                    font-feature-settings: 'kern' off;
-                    color: #000000;
-                    margin-bottom: 5vw;
-                }
-                
-                #opcao-curso h1 {
-                    font-weight: 500;
-                    font-size: 50px;
-                    display: flex;
-                    justify-content: center;
-                    color: #FF4081;
-                }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header {
+    height: 85px;
+    background-color: #2E948A;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+#cabecalho {
+    background-color: #2E948A;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#logo {
+    margin-left: 30px;
+    display: flex;
+}
+
+#link-menu {
+    display: flex;
+    margin-right: 30px;
+}
+
+header h1 {
+    margin: 0;
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+section {
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+#banner-index {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.titulo-index {
+    color: #FF4081;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+}
+
+.subtitulo-index {
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.saber-mais {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FF4081;
+    font-size: 23px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+#card-index {
+    display: flex;
+    max-width: 1440px;
+    width: 80%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#card-index h2 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #FF4081;
+    text-align: center;
+}
+
+#card-index p {
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#card-index a {
+    font-size: 20px;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    background: #FF4081;
+    border-radius: 62px;
+    padding: 8px 20px;
+}
+
+#depoimento-titulo h3 {
+    font-size: 37px;
+    color: #009688;
+    margin-left: 11%;
+    margin-bottom: 5%;
+}
+
+#depoimento-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: 10px auto;
+    margin-left: 7%;
+}
+
+#depoimentos {
+    max-width: 38%;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+#depoimentos p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#mais-conteudo {
+    font-weight: bold;
+    font-size: 37px;
+    color: #009688;
+    margin-left: 11%;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    max-width: 1440px;
+    width: 80%
+}
+
+#conteudo h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+#conteudo p {
+    width: 90%;
+}
+
+#posts {
+    text-align: center;
+}
+
+#posts a {
+    color: #FF4081;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    padding: 10px 20px;
+    margin: 20px
+}
+
+footer {
+    background: #419488;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#rodape-logo {
+    margin-top: 50px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opcoes a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+#link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#link a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 62px;
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+
+/*RESPONSIVIDADE INDEX*/
+
+@media( max-width: 480px) {
+    #cabecalho {
+        text-align: center;
+        flex-direction: column;
+    }
+    #logo {
+        margin: 0;
+    }
+    #logo a img {
+        max-width: 10vh;
+    }
+    #logo h1 {
+        font-size: 35px;
+    }
+    #lado-b img {
+        display: none;
+    }
+    #banner-index {
+        text-align: center;
+        margin: 5vh;
+    }
+    .titulo-index {
+        font-size: 50px;
+    }
+    .subtitulo-index {
+        font-size: 25px;
+    }
+    #card-index {
+        flex-wrap: wrap;
+    }
+    #card-index p {
+        margin: 5vh;
+    }
+    .card {
+        margin-top: 5vh;
+    }
+    #depoimento-titulo h3 {
+        font-size: 30px;
+        text-align: center;
+        margin: 5vh 10vh;
+    }
+    #mais-conteudo h3 {
+        margin: 5vh 10vh;
+        text-align: center;
+        font-size: 30px;
+    }
+    #conteudo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .conteudo-card {
+        margin: 3vh;
+    }
+    #rodape-logo {
+        margin-top: 3vh;
+    }
+    #rodape-logo img {
+        max-width: 20vh
+    }
+    #link a {
+        margin: 2vh;
+        padding: 1vh 2vh;
+    }
+}
+
+@media (max-width:760px) {
+    html {
+        width: 100%
+    }
+    #lado-b img {
+        width: 25vh
+    }
+    #card-index {
+        flex-wrap: wrap;
+        gap: 3vh;
+    }
+    #depoimento-titulo h3 {
+        text-align: center;
+    }
+    #conteudo {
+        flex-direction: column;
+    }
+    .conteudo-card {
+        margin: 2vh 6vh
+    }
+}
+
+@media (max-width: 1200px) {
+    #card-index h2 {
+        font-size: 22px;
+    }
+    #card-index p {
+        text-align: justify;
+        font-size: 16px;
+        padding: 2vh 3vh;
+        margin: 0;
+    }
+    #conteudo {
+        flex-wrap: wrap;
+        gap: 3vh;
+    }
+}
+
+
+/*pagina cursos*/
+
+#titulo-cursos h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #FF4081;
+    margin-left: 11%;
+}
+
+#titulo-cursos p {
+    font-weight: normal;
+    font-size: 20px;
+    color: #555555;
+    margin-left: 11%;
+}
+
+#cursos-opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    width: 80%;
+}
+
+.card-cursos img {
+    padding: 40px
+}
+
+.card-cursos {
+    display: flex;
+}
+
+.texto-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.texto-card h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #FF4081;
+    margin-bottom: 30px;
+}
+
+.texto-card {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+.texto-card a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+    background: #2E948A;
+    border-radius: 62px;
+    width: 35%;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+/* PAGINA CURSO INVESTIMENTO*/
+
+#banner-curso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.titulo-curso-invest {
+    max-width: 1440px;
+    width: 35%;
+    text-align: justify;
+}
+
+.titulo-curso-invest h1 {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+    margin-bottom: 20px;
+}
+
+.titulo-curso-invest p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #000000;
+}
+
+#videos-aula {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.card-aula {
+    display: flex;
+    margin: 50px;
+}
+
+.titulo-aula {
+    text-align: justify;
+    padding: 40px;
+    width: 50%;
+}
+
+.titulo-aula h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #FF4081;
+    padding: 0 0 30px 0
+}
+
+.titulo-aula p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+/*PAGINA BLOG*/
+
+#blog {
+    max-width: 1440px;
+    width: 80%;
+}
+
+#banner-blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+#titulo-blog h1 {
+    font-weight: bold;
+    font-size: 47px;
+    color: #009688;
+}
+
+#titulo-blog p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    width: 60%;
+    margin-top: 40px;
+}
+
+#materias-blog {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    gap: 50px;
+}
+
+#materias-blog-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    gap: 50px;
+}
+
+#materias-blog-3 {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    gap: 50px;
+}
+
+.card-blog {
+    display: block;
+}
+
+.card-blog img {
+    width: 95%;
+    margin-bottom: 20px
+}
+
+.card-blog h2 a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FF4081;
+}
+
+.card-blog p {
+    width: 80%;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #000000;
+}
+
+
+/*PAGINA DE CONTATO*/
+
+#contato {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    width: 80%;
+    margin-top: 20%;
+    margin-left: 11%;
+}
+
+#formulario {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#form form {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form form * {
+    font-size: 16px;
+    margin: 25px;
+}
+
+#form form input,
+textarea {
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 50vh
+}
+
+#form form input {
+    padding: 5px;
+}
+
+#form form a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #FF4081;
+    border-radius: 50px;
+    width: 30%;
+    padding: 10px 8px;
+}
+
+
+/*PAGINA POSTS*/
+
+#titulo-post h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    justify-content: center;
+    color: #FF4081;
+}
+
+#titulo-post p {
+    font-weight: 300;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: #9D9D9D;
+}
+
+#imagem-post {
+    display: flex;
+    justify-content: center;
+    width: 145vh;
+}
+
+#texto-post {
+    width: 90vw;
+    text-align: left;
+}
+
+#texto-post h2 {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+    margin-bottom: 2vw;
+}
+
+#texto-post p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+    margin-bottom: 5vw;
+}
+
+#opcao-curso h1 {
+    font-weight: 500;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FF4081;
+}
