@@ -6,7 +6,7 @@
  }
  
  header {
-     height: 85px;
+     height: 95px;
      background-color: #2E948A;
      display: flex;
      font-size: 15px;
@@ -247,9 +247,6 @@
  /*RESPONSIVIDADE INDEX*/
  
  @media( max-width: 480px) {
-     header {
-         height: 95px;
-     }
      #cabecalho {
          text-align: center;
          flex-direction: column;
