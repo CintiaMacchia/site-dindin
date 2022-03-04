@@ -248,7 +248,7 @@
  
  @media( max-width: 480px) {
      header {
-         height: 15vh;
+         height: 95px;
      }
      #cabecalho {
          text-align: center;
