@@ -247,6 +247,9 @@
  /*RESPONSIVIDADE INDEX*/
  
  @media( max-width: 480px) {
+     header {
+         height: 15vh;
+     }
      #cabecalho {
          text-align: center;
          flex-direction: column;
@@ -286,6 +289,9 @@
          font-size: 30px;
          text-align: center;
          margin: 5vh 10vh;
+     }
+     #mais-conteudo {
+         margin-left: 0;
      }
      #mais-conteudo h3 {
          margin: 5vh 10vh;
@@ -523,8 +529,15 @@
          text-align: center;
          font-size: 45px;
      }
+     #videos-aula {
+         display: block;
+         margin: 0;
+     }
      .card-aula iframe {
          display: none;
+     }
+     .card-aula p {
+         text-align: justify;
      }
      .card-aula {
          margin: 0;
@@ -818,6 +831,8 @@
      }
      #texto-post p {
          margin-bottom: 7vh;
+         margin: 0 2vh;
+         line-height: 28px;
      }
      #texto-post h2 {
          margin-bottom: 3vh;
